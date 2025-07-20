@@ -2,7 +2,7 @@
 import { useEffect, useRef, useState } from "react";
 import { io } from "socket.io-client";
 
-const socket = io("http://localhost:3001");
+const socket = io("https://chat-app-c6et.onrender.com");
 const ROOM_ID = "demo-room"; // hard‑coded; you can make this dynamic
 
 export default function App() {
